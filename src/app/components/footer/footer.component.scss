@@ -1,0 +1,29 @@
+.footerComponent{
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  background: linear-gradient(89.41deg, #D9D9D9 -5.97%, #F9B236 -5.96%, #B16653 48.87%, #782A69 95.24%);
+  box-shadow: 0px 17px 46.2px 0px #3C3C3C40;
+  font-size: 1.2rem;
+  justify-content: space-between;
+  padding: 0 10% 0 10%;
+  color: white;
+
+}
+
+.footerSection2{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.year{
+  display: flex;
+  flex-direction: column-reverse;
+}
+a.text:active, /* активная/посещенная ссылка */
+a.text:hover,  /* при наведении */
+a.text {
+  text-decoration: none;
+  color: white;
+
+}
