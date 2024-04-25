@@ -6,16 +6,55 @@
 .graphic{
   height: inherit;
   background: linear-gradient(236.73deg, #7209B7 1.57%, #FFD166 96.64%),
-  url(../../../assets/1.png) -15% -10%  no-repeat ,
+  url(../../../assets/1.png) 0% -20%  no-repeat ,
   url(../../../assets/2.png)100% 0% no-repeat,
   url(../../../assets/3.png) 0% 150% no-repeat;
   background-blend-mode: color;
-  background-size: 100%, 70%, 70%, 70%;
-}
-/*
-.img-overlay{
-  width: 100%;
-  height: 100%;
-  //background: rgba(140, 0, 255, 0.3);
+  background-size: 100%, 90%, 70%, 70%;
+  color: white;
 
-}*/
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 5%;
+  align-items: center;
+  text-align: center;
+}
+.widthBlock{
+  width: 60%;
+}
+.aboutBlock1{
+  padding-top: 10%;
+}
+.aboutBlock2{
+  padding-top: 5%;
+}
+.titleBlock{
+  text-align: left;
+}
+.textBlock{
+  display: flex;
+  align-items: center;
+  }
+.aboutRectangle{
+  display: flex;
+  height: 200px;
+  border: 3px solid #FFFFFF;
+  border-radius: 3rem;
+  background:linear-gradient(108.58deg, rgba(247, 37, 133, 0.4) 0.57%, rgba(76, 201, 240, 0.4) 94.71%),
+  linear-gradient(231.78deg, rgba(0, 0, 0, 0.55) 0.17%, rgba(152, 152, 152, 0.36) 100.16%);
+}
+
+.howToText{
+  padding-top: 10%;
+}
+.aboutBlock3{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 6%;
+}
