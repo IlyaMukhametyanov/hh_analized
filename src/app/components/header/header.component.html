@@ -7,7 +7,12 @@
                 <p>Результат</p>
             </div>
         </div>
-        <div class="headerSection2">
-            <p>Войти | Регистрация</p>
-        </div>
+        <ng-template [ngIf]="nonAuthorized" [ngIfElse]="authBlock"
+                class="headerSection2">
+                <p>Войти | Регистрация</p></ng-template>
+
+            <ng-template class="headerSection2" #authBlock>
+            <p>authorized</p>
+            </ng-template>
+
     </header>
