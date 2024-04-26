@@ -1,1 +1,24 @@
-<p>header works!</p>
+<header class="headerComponent">
+
+        <div class="headerSection1">
+            <a href=""><p class="moscow">О ПРОЕКТЕ</p></a>
+            <a href=""><p class="montserrat same">Поиск навыков</p></a>
+            <div class="rectangle">
+                <a href=""><p class="montserrat bold">Результат</p></a>
+            </div>
+        </div>
+        <ng-template [ngIf]="nonAuthorized" [ngIfElse]="authBlock">
+            <div class="headerSection2">
+                <a href=""><p class="render2Sec montserrat same">Войти | Регистрация</p></a>
+            </div>
+                </ng-template>
+
+            <ng-template #authBlock>
+                <div class="headerSection2">
+                    <a href="">
+                <img class="userPic render2Sec" src="assets/img.png" alt="">
+                    </a>
+                    </div>
+                </ng-template>
+
+    </header>

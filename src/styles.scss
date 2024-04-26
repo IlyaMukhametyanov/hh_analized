@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: 'montserrat';
+  src: url('assets/Montserrat/Montserrat-Regular.ttf');
+}
+@font-face {
+  font-family: 'montserratmedium';
+  src: url('assets/Montserrat/Montserrat-Medium.ttf');
+}
+@font-face {
+  font-family: 'montserratbold';
+  src: url('assets/Montserrat/Montserrat-Bold.ttf');
+}
+@font-face {
+  font-family: 'moscow';
+  src: url('assets/MoscowMetro/MoscowMetro.otf');
+}
