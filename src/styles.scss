@@ -2,6 +2,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  min-height: 100%;
 }
 @font-face {
   font-family: 'montserrat';
@@ -10,6 +11,10 @@ html, body {
 @font-face {
   font-family: 'montserratmedium';
   src: url('assets/Montserrat/Montserrat-Medium.ttf');
+}
+@font-face {
+  font-family: 'montserratsemibold';
+  src: url('assets/Montserrat/Montserrat-SemiBold.ttf');
 }
 @font-face {
   font-family: 'montserratbold';
