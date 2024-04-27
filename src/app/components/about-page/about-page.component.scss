@@ -9,7 +9,7 @@
   url(../../../assets/2.png)100% 0% no-repeat,
   url(../../../assets/3.png) 0% 150% no-repeat;
   background-blend-mode: color;
-  background-size: 100%, 90%, 70%, 70%;
+  background-size: 100%, 90%, 70%, 80%;
   color: white;
 
 }
@@ -37,7 +37,6 @@
 }
 .textBlock{
   padding: 1%;
-  font-family: 'montserrat';
   font-size: 1.3vw;
   display: flex;
   align-items: center;
@@ -53,14 +52,17 @@
 }
 
 .howToText{
-  padding-top: 10%;
+  font-size: 1.6vw;
+
+  padding-top: 5%;
 }
 .aboutBlock3{
+  text-align: left;
+  width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
-  padding-top: 6%;
+  padding-top: 2%;
 }
 .sellPhraseH1{
   font-size: 2.5vw;
@@ -68,4 +70,65 @@
 .bold{
   font-family: 'montserratbold';
 
+}
+.medium{
+  font-family: montserratmedium;
+}
+.regular{
+  font-family: 'montserrat';
+
+}
+.step1{
+  align-self: flex-start;
+}
+.step2{
+  align-self: flex-end;
+
+}
+.step3 {
+  align-self: flex-start;
+}
+.numPlusText{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  h1{
+    display: flex;
+    justify-content: center;
+    border: 3px solid #FFFFFF;
+    font-family: 'montserratbold';
+    font-size: 5vw;
+    padding: 1%;
+    border-radius: 2vw;
+    width: 6vw;
+    height: auto;
+    background: radial-gradient(70.37% 70.37% at 50% 50%, rgba(255, 209, 102, 0.85) 47.31%, rgba(153, 125, 61, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: #FFD166 1px 1px 11px;
+
+  }
+}
+.shit{
+  padding-left: 3%;
+}
+.titleBlock3{
+  font-size: 1.6vw;
+}
+.textBlock3{
+  font-size: 1.3vw;
+}
+.tryButton{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 1%;
+  height: 3vw;
+  font-size: 2.5vw;
+  margin-bottom: 7%;
+  background: radial-gradient(70.37% 70.37% at 50% 50%, rgba(255, 209, 102, 0.85) 47.31%, rgba(153, 125, 61, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  box-shadow: #FFD166 1px 1px 11px;
+  border: 3px solid #FFFFFF;
+  border-radius: 2vw;
 }
