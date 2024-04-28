@@ -1,0 +1,67 @@
+.background{
+  background: linear-gradient(236.73deg, #7209B7 1.57%, #FFD166 96.64%);
+}
+.graphic{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background:
+              url(../../../assets/28.png) 0% 50% no-repeat;
+  mix-blend-mode: luminosity;
+  background-size: 100vw;
+  padding: 5% 0% 5% 0%;
+  //height: 80vh;
+
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  user-select: none;
+  //height: 50vh;
+  padding: 2% 0% 2% 0%;
+  border: 2px solid #FFFFFF;
+  border-radius: 3rem;
+  background: linear-gradient(108.58deg, rgba(247, 37, 133, 0.4) 0.57%, rgba(76, 201, 240, 0.4) 94.71%),
+  linear-gradient(231.78deg, rgba(0, 0, 0, 0.55) 0.17%, rgba(152, 152, 152, 0.36) 100.16%);
+  mix-blend-mode: hard-light;
+  box-shadow: #FFD166 1px 1px 11px;
+  color: white;
+}
+.regBlock{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  align-content: space-between;
+
+}
+.regTitle{
+  font-size: 3vw;
+  font-family: montserratbold;
+}
+input{
+  font-size: 2vw;
+
+
+}
+.regButton{
+  font-family: montserratbold;
+
+  font-size: 2.2vw;
+
+  a{
+    outline: none;
+    text-decoration: none;
+    color: inherit;
+
+  }
+}
+.ramka{
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 1rem;
+
+}
