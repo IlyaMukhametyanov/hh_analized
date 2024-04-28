@@ -7,6 +7,7 @@ import { AboutPageComponent } from './components/about-page/about-page.component
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SkillAnalizeComponent } from './components/skill-analize/skill-analize.component';
+import { RegistrationPageComponent } from './components/registration-page/registration-page.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SkillAnalizeComponent } from './components/skill-analize/skill-analize.
     AboutPageComponent,
     HeaderComponent,
     FooterComponent,
-    SkillAnalizeComponent
+    SkillAnalizeComponent,
+    RegistrationPageComponent
   ],
   imports: [
     BrowserModule,
