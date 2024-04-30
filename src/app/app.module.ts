@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SkillAnalizeComponent } from './components/skill-analize/skill-analize.component';
 import { RegistrationPageComponent } from './components/registration-page/registration-page.component';
+import { AuthPageComponent } from './components/auth-page/auth-page.component'
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RegistrationPageComponent } from './components/registration-page/regist
     HeaderComponent,
     FooterComponent,
     SkillAnalizeComponent,
-    RegistrationPageComponent
+    RegistrationPageComponent,
+      AuthPageComponent
   ],
   imports: [
     BrowserModule,
