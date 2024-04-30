@@ -6,10 +6,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background:
-              url(../../../assets/28.png) 0% 50% no-repeat;
-  mix-blend-mode: luminosity;
-  background-size: 100vw;
+  background:  linear-gradient(236.73deg, #7209B7 1.57%, #FFD166 96.64%),
+                url(../../../assets/28.png) 0% 60% no-repeat;
+  background-blend-mode: color;
+  background-size: auto 90vw;
   padding: 5% 0% 5% 0%;
   //height: 80vh;
 
@@ -18,14 +18,16 @@
 .content{
   display: flex;
   justify-content: center;
-  width: 80%;
+  width: 60%;
   user-select: none;
   //height: 50vh;
   padding: 2% 0% 2% 0%;
-  border: 2px solid #FFFFFF;
+  border: 3px solid #FFFFFF;
   border-radius: 3rem;
-  background: linear-gradient(108.58deg, rgba(247, 37, 133, 0.4) 0.57%, rgba(76, 201, 240, 0.4) 94.71%),
-  linear-gradient(231.78deg, rgba(0, 0, 0, 0.55) 0.17%, rgba(152, 152, 152, 0.36) 100.16%);
+  //background: linear-gradient(108.58deg, rgba(247, 37, 133, 0.4) 0.57%, rgba(76, 201, 240, 0.4) 94.71%),
+  //linear-gradient(231.78deg, rgba(0, 0, 0, 0.55) 0.17%, rgba(152, 152, 152, 0.36) 100.16%);
+  background: linear-gradient(108.58deg, rgba(247, 37, 133, 0.4) 0.57%, rgba(76, 201, 240, 0.4) 94.71%);
+
   mix-blend-mode: hard-light;
   box-shadow: #FFD166 1px 1px 11px;
   color: white;
@@ -37,21 +39,31 @@
   text-align: center;
   justify-content: space-between;
   align-content: space-between;
-
 }
+
+
 .regTitle{
   font-size: 3vw;
   font-family: montserratbold;
 }
 input{
-  font-size: 2vw;
+  margin-bottom: 5%;
+  font-size: 1.8vw;
+  box-sizing: border-box;
+  display: block;
+  border: 2px solid white;
+  border-radius: 2rem;
+  color: inherit;
+  background: transparent;
 
 
 }
+
 .regButton{
   font-family: montserratbold;
-
-  font-size: 2.2vw;
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 2rem;
+  font-size: 2vw;
 
   a{
     outline: none;
@@ -62,6 +74,9 @@ input{
 }
 .ramka{
   border: 2px solid rgba(255, 255, 255, 1);
-  border-radius: 1rem;
+  border-radius: 3rem;
 
+}
+.sectionHeight{
+  height: 3vw;
 }
