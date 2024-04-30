@@ -9,7 +9,9 @@
         </div>
         <ng-template [ngIf]="nonAuthorized" [ngIfElse]="authBlock">
             <div class="headerSection2">
-                <a href=""><p class="render2Sec montserrat same">Войти | Регистрация</p></a>
+                <a routerLink="/auth"><p class="montserrat same">Войти</p></a>
+                <p class="montserrat same palka">|</p>
+                <a routerLink="/registration"><p class="montserrat same">Регистрация</p></a>
             </div>
                 </ng-template>
 

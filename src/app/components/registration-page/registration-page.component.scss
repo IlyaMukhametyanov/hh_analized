@@ -1,0 +1,79 @@
+.background{
+  background: linear-gradient(236.73deg, #7209B7 1.57%, #FFD166 96.64%);
+  height: 100vh;
+
+}
+.graphic{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background:  linear-gradient(236.73deg, #7209B7 1.57%, #FFD166 96.64%) no-repeat fixed,
+                url(../../../assets/28.png) 0% 60% no-repeat;
+  background-blend-mode: color;
+  background-size: auto 90vw;
+  //padding: 5% 0% 5% 0%;
+  height: inherit;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  user-select: none;
+  padding: 5% 0% 7% 0%;
+  border: 3px solid #FFFFFF;
+  border-radius: 3rem;
+  background: linear-gradient(108.58deg, rgba(247, 37, 133, 0.4) 0.57%, rgba(76, 201, 240, 0.4) 94.71%);
+  mix-blend-mode: hard-light;
+  box-shadow: #FFD166 0 0 50px;
+  color: white;
+
+}
+.regBlock{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+
+.regTitle{
+  font-size: 3vw;
+  font-family: montserratbold;
+}
+input{
+  margin-bottom: 5%;
+  font-size: 1.8vw;
+  box-sizing: border-box;
+  display: block;
+  border: 2px solid white;
+  border-radius: 2rem;
+  color: inherit;
+  background: transparent;
+  padding-left: 3%;
+
+
+}
+
+.regButton{
+  font-family: montserratbold;
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 2rem;
+  font-size: 2vw;
+  display: flex;
+  justify-content: center;
+
+  a{
+    outline: none;
+    text-decoration: none;
+    color: inherit;
+
+  }
+}
+
+.sectionHeight{
+  height: 3vw;
+}
