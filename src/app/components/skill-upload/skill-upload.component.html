@@ -1,1 +1,12 @@
-<p>skill-upload works!</p>
+<app-header></app-header>
+<div class="background">
+    <div class="graphic">
+        <form method="post" [formGroup]="uploadForm" (ngSubmit)="onSubmit()" class="content">
+            <p class="bigMessage">ИнструкцияИнструкцияИнструкцияИнструкцияИнструкцияИнструкцияИнструкция ИнструкцияИнструкцияИнструкция</p>
+            <input value="Выберите файл" formControlName="uploadFile" type='file' name="file"
+                   onchange="console.log(event.target.files)" class="inputFile proceedButton widthSec2"/>
+            <button type="submit" class="proceedButton widthSec2 display" >Отправить</button>
+        </form>
+    </div>
+</div>
+<app-footer></app-footer>

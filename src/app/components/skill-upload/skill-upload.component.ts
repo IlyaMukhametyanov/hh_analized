@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormControl, FormGroup } from '@angular/forms'
 
 @Component({
   selector: 'app-skill-upload',
@@ -6,10 +7,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./skill-upload.component.scss']
 })
 export class SkillUploadComponent implements OnInit {
+    uploadForm = new FormGroup({
+      uploadFile : new FormControl()
 
-  constructor() { }
+    })
+
+  constructor(
+      private formBuilder: FormBuilder
+
+  ) { }
 
   ngOnInit(): void {
+
+  }
+  onSubmit(): void{
+
   }
 
 }
