@@ -8,7 +8,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SkillAnalizeComponent } from './components/skill-analize/skill-analize.component';
 import { RegistrationPageComponent } from './components/registration-page/registration-page.component';
-import { AuthPageComponent } from './components/auth-page/auth-page.component'
+import { AuthPageComponent } from './components/auth-page/auth-page.component';
+import { SkillUploadComponent } from './components/skill-upload/skill-upload.component'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 
 @NgModule({
   declarations: [
@@ -18,12 +20,15 @@ import { AuthPageComponent } from './components/auth-page/auth-page.component'
     FooterComponent,
     SkillAnalizeComponent,
     RegistrationPageComponent,
-      AuthPageComponent
+      AuthPageComponent,
+      SkillUploadComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        FormsModule,
+        ReactiveFormsModule,
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

@@ -1,1 +1,11 @@
-<p>skill-analize works!</p>
+<app-header></app-header>
+<div class="background">
+    <div class="graphic">
+        <form [formGroup]="form" (ngSubmit)="onSubmit()" class="content">
+            <p class="bigMessage">ИнструкцияИнструкцияИнструкцияИнструкцияИнструкцияИнструкцияИнструкция ИнструкцияИнструкцияИнструкция</p>
+            <input formControlName="profession" type='text' required placeholder="Введите профессию" class="input widthSec2"/>
+            <button type="submit" class="proceedButton widthSec2" >Далее</button>
+        </form>
+    </div>
+</div>
+<app-footer></app-footer>
