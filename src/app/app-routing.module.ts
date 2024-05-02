@@ -5,13 +5,15 @@ import { RegistrationPageComponent } from './components/registration-page/regist
 import { AuthPageComponent } from './components/auth-page/auth-page.component'
 import { SkillAnalizeComponent } from './components/skill-analize/skill-analize.component'
 import { SkillUploadComponent } from './components/skill-upload/skill-upload.component'
+import { ResultPageComponent } from './components/result-page/result-page.component'
 
 const routes: Routes = [
   { path: '', component: AboutPageComponent },
   { path: 'registration', component: RegistrationPageComponent},
   { path: 'auth', component:AuthPageComponent},
   { path: 'skills', component: SkillAnalizeComponent},
-  { path: 'skillsUpload', component: SkillUploadComponent}
+  { path: 'skillsUpload', component: SkillUploadComponent},
+  { path: 'result', component: ResultPageComponent  }
 ];
 
 @NgModule({

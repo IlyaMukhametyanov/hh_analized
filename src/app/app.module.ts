@@ -10,7 +10,8 @@ import { SkillAnalizeComponent } from './components/skill-analize/skill-analize.
 import { RegistrationPageComponent } from './components/registration-page/registration-page.component';
 import { AuthPageComponent } from './components/auth-page/auth-page.component';
 import { SkillUploadComponent } from './components/skill-upload/skill-upload.component'
-import { FormsModule, ReactiveFormsModule } from '@angular/forms'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ResultPageComponent } from './components/result-page/result-page.component'
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms'
     SkillAnalizeComponent,
     RegistrationPageComponent,
       AuthPageComponent,
-      SkillUploadComponent
+      SkillUploadComponent,
+      ResultPageComponent
   ],
     imports: [
         BrowserModule,
