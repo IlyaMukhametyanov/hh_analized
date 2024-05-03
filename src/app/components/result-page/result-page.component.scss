@@ -1,6 +1,6 @@
 .background{
-  background: linear-gradient(236.73deg, #7209B7 1.57%, #FFD166 96.64%);
-  height: 170vh;
+  background: linear-gradient(236.73deg, #7209B7 1.57%, #FFD166 96.64%) no-repeat;
+  //height: 170vh;
 }
 .graphic{
   display: flex;
@@ -38,6 +38,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-content: space-between;
+  margin-bottom: 3%;
 }
 .titleMessage{
   font-size: 1.6vw;
