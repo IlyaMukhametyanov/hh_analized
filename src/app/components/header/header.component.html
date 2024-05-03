@@ -17,10 +17,18 @@
 
             <ng-template #authBlock>
                 <div class="headerSection2">
-                    <a href="">
-                <img class="userPic render2Sec" src="assets/img.png" alt="">
-                    </a>
+
+                <img (click)="toggleModal()" class="userPic render2Sec" src="assets/img.png" alt="">
+
                     </div>
                 </ng-template>
 
+    <div class="modal" [ngClass]="{'show': showModal}">
+        <div class="modal-content" (click)="toggleModal()">
+            <img class="modal-pic marginBot" src="assets/img.png" alt="">
+            <button class="marginBot" (click)="goToProfile()">Профиль</button>
+            <button class="marginBot" (click)="goToSettings()">Настройки</button>
+            <button class="" (click)="logout()">Выход</button>
+        </div>
+    </div>
     </header>
