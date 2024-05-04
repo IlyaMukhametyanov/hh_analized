@@ -1,0 +1,75 @@
+.background{
+  background: linear-gradient(236.73deg, #7209B7 1.57%, #FFD166 96.64%) no-repeat;
+  //height: 170vh;
+}
+.graphic{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background:  linear-gradient(236.73deg, #7209B7 1.57%, #FFD166 96.64%) no-repeat fixed,
+  url(../../../assets/15.png) 0% -40% no-repeat ,
+  url(../../../assets/176.png) 100% 180% no-repeat ;
+  background-size: auto 75vw;
+  background-blend-mode: color;
+  //padding: 5% 0% 5% 0%;
+  height: inherit;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  //user-select: none;
+  padding: 6% 0% 6% 0%;
+  color: white;
+}
+.messageStyle{
+  width: 50%;
+  display: flex;
+  border: 3px solid #FFFFFF;
+  border-radius: 3rem;
+  padding: 1% 6% 1% 6%;
+  background: linear-gradient(108.58deg, rgba(247, 37, 133, 0.4) 0.57%, rgba(76, 201, 240, 0.4) 94.71%),
+  linear-gradient(231.78deg, rgba(0, 0, 0, 0.55) 0.17%, rgba(152, 152, 152, 0.36) 100.16%);
+  mix-blend-mode: hard-light;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-bottom: 4%;
+}
+.titleMessage{
+  font-size: 1.6vw;
+  font-family: 'montserratbold';
+}
+.textMessage{
+  font-size: 1.3vw;
+  font-family: 'montserratmedium';
+}
+.linkMessage{
+  font-family: 'montserratmedium';
+  font-size: 1.3vw;
+  align-self: flex-end;
+}
+a{
+  outline: none;
+  text-decoration: none;
+  color: inherit;
+}
+.picSec{
+  margin-left: -9%;
+  margin-top: -4%;
+  text-align: center;
+  align-content: center;
+  position: absolute;
+  border: 3px solid white;
+  border-radius: 2rem;
+  height: 10vh;
+  width: 5.2vw;
+  background: white;
+  color: black;
+  font-family: montserratmedium;
+  font-size: 0.8vw;
+}
