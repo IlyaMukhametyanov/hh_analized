@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, HostListener, OnInit } from '@angular/core'
 
 @Component({
   selector: 'app-header',
@@ -10,10 +10,12 @@ export class HeaderComponent implements OnInit {
   nonAuthorized: boolean = false
   showModal = false;
 
-  toggleModal() {
-    this.showModal = !this.showModal;
-  }
 
+  toggleModal() {
+      this.showModal =!this.showModal
+
+
+  }
   goToProfile() {
     // Логика перехода на страницу профиля
   }
@@ -25,7 +27,9 @@ export class HeaderComponent implements OnInit {
   logout() {
     // Логика выхода из системы
   }
+
   constructor() { }
+
 
   ngOnInit(): void {
   }

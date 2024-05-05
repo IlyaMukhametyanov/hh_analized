@@ -24,15 +24,16 @@
                 </ng-template>
 
     <div class="modal" [ngClass]="{'show': showModal}">
-        <div class="modal-content" (click)="toggleModal()">
+        <div class="modal-content">
             <img class="modal-pic" src="assets/img.png" alt="">
 
             <p class="barFont montserratRegular">nickname</p>
             <p class="id montserratRegular marginBot">id:1213</p>
 
             <a class="barFont montserratRegular" (click)="goToProfile()">Профиль</a>
-            <a class="barFont  montserratRegular" (click)="goToSettings()">Настройки</a>
+            <a class="barFont montserratRegular" (click)="goToSettings()">Настройки</a>
             <a class="barFont montserratRegular logoutButton" (click)="logout()">Выход</a>
+            <a class="barFont montserratRegular" (click)="toggleModal()">Закрыть</a>
         </div>
     </div>
     </header>
