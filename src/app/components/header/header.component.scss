@@ -76,3 +76,68 @@
   width: 20%;
   height: 4rem;
   }
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+  backdrop-filter: blur(3px);
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fefefe;
+  padding-top: 5%;
+  background: linear-gradient(180deg, #851F8E 0%, #BB6464 48%, #E89D41 100%);
+  box-shadow: -1px 4px 99.8px 0px rgba(0, 0, 0, 0.25);
+  width: 20%;
+  height: 80%;
+  a{
+    margin-bottom: 3%;
+  }
+  p{
+    line-height: 0.1vw;
+  }
+  a:hover{
+    text-shadow: rgba(0, 0, 0, 0.5) 1px 2px 5px;
+    opacity: 1.5;}
+}
+
+.show {
+  display: flex;
+  justify-content: flex-end;
+
+}
+.modal-pic{
+  height: 80px;
+  width: 80px;
+  border: 1px transparent;
+  border-radius: 3rem ;
+  background:radial-gradient(50% 50% at 50% 50%, rgba(255, 209, 102, 1) 0%, rgba(153, 125, 61, 0.3) 100%)
+}
+.marginBot{
+  margin-bottom: 20%;
+}
+.montserratRegular{
+  font-family: 'montserrat';
+}
+.barFont{
+  font-size: 1.1vw;
+}
+.id{
+  font-size: 0.8vw;
+}
+.logoutButton{
+  padding: 2%;
+  border: 2px solid white;
+  border-radius: 3rem;
+}
